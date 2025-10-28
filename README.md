@@ -1,1 +1,15 @@
-# Sistem-Informasi-Banjir-dan-Cuaca-Samarinda-SIRAM-
+# Sistem-Informasi-Banjir-dan-Cuaca-Samarinda-SIRAM
+## Anggota Kelompok
+
+
+# PROGRAM SISTEM INFORMASI BANJIR DAN CUACA SAMARINDA (SIRAM)
+deskripsi program
+
+# FITUR-FITUR PROGRAM
+
+# PENERAPAN 5 PILAR OOP
+
+# PENJELASAN STRUKTUR PACKAGES
+
+# PENERAPAN NILAI TAMBAHAN
+
