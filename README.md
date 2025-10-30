@@ -12,7 +12,7 @@ Perubahan iklim kini semakin terasa di Samarinda. Cuaca yang tidak menentu membu
 Peristiwa ini menunjukkan bahwa dampak perubahan iklim sudah nyata di sekitar kita. Melalui tema “Climate Action” dari SDGs, penting bagi kita untuk memahami penyebab dan dampak perubahan iklim, terutama yang berkaitan dengan curah hujan ekstrem di Samarinda. Dengan begitu, masyarakat diharapkan lebih sadar dan mau berperan aktif dalam upaya mitigasi dan adaptasi agar lingkungan tetap aman, nyaman, dan berkelanjutan untuk ditinggali.
 
 # FLOWCHART DAN USE CASE DIAGRAM
-## FLOWCHART
+## Flowchart
 <details>
   <summary>1. Flowchart Menu Utama</summary>
   <img src="https://github.com/user-attachments/assets/1e8301a3-bea2-4e11-955a-f03f825e55f6"alt="">
@@ -48,7 +48,7 @@ Peristiwa ini menunjukkan bahwa dampak perubahan iklim sudah nyata di sekitar ki
   <img src="https://github.com/user-attachments/assets/42f12114-68ab-48b9-ba80-48889c7ea711"alt="">
 </details>
 
-## USE CASE DIAGRAM
+## Use Case Diagram
 <details>
   <summary>Use Case Diagram SIRAM</summary>
   <img src="https://github.com/user-attachments/assets/9cecfa4c-c6df-4760-ac14-6cc564a77b21"alt="">
