@@ -50,7 +50,7 @@ Peristiwa ini menunjukkan bahwa dampak perubahan iklim sudah nyata di sekitar ki
 
 ## USE CASE DIAGRAM
 <details>
-  <summary>7. Flowchart Tindak Lanjut</summary>
+  <summary>Use Case Diagram SIRAM</summary>
   <img src="https://github.com/user-attachments/assets/9cecfa4c-c6df-4760-ac14-6cc564a77b21"alt="">
 </details>
 
