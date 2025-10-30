@@ -84,4 +84,15 @@ Peristiwa ini menunjukkan bahwa dampak perubahan iklim sudah nyata di sekitar ki
 -  Mengimplementasikan framework ORM
 
 # CARA MENGGUNAKAN PROGRAM
+<img width="1182" height="891" alt="image" src="https://github.com/user-attachments/assets/ec5b3863-544c-4929-b3aa-d00a072b05a3" />
 
+
+
+<img width="1203" height="946" alt="image" src="https://github.com/user-attachments/assets/273ba9b8-2721-4934-b3b4-680f351959a2" />
+
+
+<img width="1180" height="888" alt="image" src="https://github.com/user-attachments/assets/c2e312d6-cb53-4a86-b795-e9298159c896" />
+
+
+
+<img width="1203" height="946" alt="image" src="https://github.com/user-attachments/assets/9129d8ce-7c2e-4737-b76c-d50d8c3a1c3a" />
