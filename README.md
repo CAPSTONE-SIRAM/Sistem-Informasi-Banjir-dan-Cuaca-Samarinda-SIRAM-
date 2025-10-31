@@ -73,6 +73,7 @@ Peristiwa ini menunjukkan bahwa dampak perubahan iklim sudah nyata di sekitar ki
 
 # PENERAPAN 5 PILAR OOP
 ### Encapsulation
+Konsep membungkus data sensitif berupa property atau method dalam sebuah class agar terlindungi dari akses class lain. Untuk mengakses class tersebut, harus menetapkan modifier ‘private’ pada property terlebih dahulu, kemudian data bisa diakses melalui method getter (penginisialisasian)/setter (pengaksesan) yang bersifat ‘public’.
 
 <img width="1211" height="825" alt="image" src="https://github.com/user-attachments/assets/846682f8-ef83-4dd8-bfb2-1aa2668ea5a5" />
 
@@ -80,6 +81,7 @@ Pada class Users, encapsulation diterapkan dengan menjadikan atribut bersifat pr
 Hal ini menjaga keamanan data pengguna (seperti password, email, dan no_hp) serta membuat struktur kode lebih teratur dan mudah dikelola.
 
 ### Inheritance
+Inheritance merupakan salah satu pilar utama dalam Pemrograman Berorientasi Objek yang memungkinkan suatu class (child) mewarisi property dan method dari class  lain (parent). Inheritance membantu mengurangi penulisan kode secara berulang  (mengurangi redundancy kode). Sebuah kelas (superclass) dapat mewariskan property dan method kepada kelas-kelas turunannya (subclass). Artinya, subclass dapat menggunakan kembali property dan method dari superclass, serta dapat menambahkan property dan method baru atau mengubah perilaku yang sudah ada.
 
 <img width="666" height="263" alt="image" src="https://github.com/user-attachments/assets/0d735785-eca4-496c-ad89-08ee15e41391" />
 
@@ -106,6 +108,7 @@ Sama seperti CuacaHujan, class CuacaPanas juga mewarisi atribut umum dari Cuaca,
 - levelPanas
 
 ### Abstraction
+Abstraksi berarti hanya menaruh karakteristik-karakteristik yang diperlukan oleh sebuah kelas tanpa harus menampilkan detail dari karakteristik tersebut. Dalam abstraction menggunakan abstract class yang merukan kelas abtrak digunakan untuk menentukan karakteristik dari sebuah kelas. Abstract class tidak bisa dibuat menjadi obek secara langsung harus diwariskan.
 
 <img width="666" height="263" alt="image" src="https://github.com/user-attachments/assets/0d735785-eca4-496c-ad89-08ee15e41391" />
 
