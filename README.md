@@ -55,17 +55,21 @@ Peristiwa ini menunjukkan bahwa dampak perubahan iklim sudah nyata di sekitar ki
 </details>
 
 # FITUR-FITUR PROGRAM
-- Menu Utama: Halaman awal sistem setelah login, sebagai titik navigasi ke fungsi-utama: pendaftaran, admin, user. Memfasilitasi pemilihan jalur sesuai peran (Admin atau User).
+- Sistem login: sebagai titik navigasi ke fungsi-utama, Memfasilitasi pemilihan jalur sesuai peran (Admin atau User).
   
-- Registrasi: Digunakan untuk membuat akun baru sebagai User (atau potensi Admin jika dibuka). Data user dikumpulkan untuk autentikasi, lalu diarahkan ke Menu User setelah aktif.
+- Registrasi: Digunakan untuk membuat akun baru sebagai User. Data user dikumpulkan untuk autentikasi, lalu diarahkan ke Menu User setelah aktif.
+  
+- Menu User: Halaman utama bagi User setelah login/registrasi. User dapat melihat laporan banjir yang dibuat oleh user lain kemudian tindak lanjut dari admin. uer juga dapat melihat info cuaca yang sudah dikelola Admin serta mengirim laporan banjir sebagai informasi ke user lain.
+  
+- filter Cuaca Sesuai Jenisnya : Pada menu informasi cuaca program memisahkan informasi cuaca berdasarkan cuaca hujan dan cuaca panas sehingga memudahkan user dan memberikan tampilan yang menarik.
+
+- Laporan menampilkan gambar: Dengan adanya fitur laporan banjir user lain dapat terbantu mendapatkan informasi banjir, serta di permudah dengan adanya fitur lihat foto pada setiap laporan.
   
 - Menu Admin: Akses khusus bagi peran Admin yang telah berhasil login. Menyediakan kontrol dan manajemen terhadap komponen sistem.
   
-- Kelola Info Cuaca: Sub-menu di bawah Menu Admin. Admin dapat melakukan input, edit, atau hapus informasi cuaca yang kemudian ditampilkan ke pengguna.
+- Kelola Info Cuaca: Admin dapat melakukan input, edit, atau hapus informasi cuaca yang kemudian ditampilkan ke pengguna untuk mereka mendapatkan informasi cuaca.
   
-- Kelola Laporan User: Sub-menu lain di bawah Menu Admin. Admin meninjau laporan yang disampaikan oleh user (misalnya terkait kondisi, feedback, atau kejadian), kemudian mengambil tindakan ataupun memberi respon.
-  
-- Menu User: Halaman utama bagi User setelah login/registrasi. User dapat melihat laporan yang dibuat oleh user lain serta tindak lanjut dari admin serta melihat info cuaca yang sudah dikelola Admin serta mengirim laporan ke sistem (yang kemudian akan muncul di “Kelola Laporan User”).
+- Kelola Laporan Banjir: Admin melihat laporan banjir yang disampaikan oleh user, kemudian admin dapat mengambil tindakan ataupun memberi respon terhadapat laporan user.
 
 # PENERAPAN 5 PILAR OOP
 ### Encapsulation
