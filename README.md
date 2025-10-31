@@ -1,4 +1,4 @@
-# Sistem-Informasi-Banjir-dan-Cuaca-Samarinda-SIRAM
+<img width="637" height="682" alt="image" src="https://github.com/user-attachments/assets/d2911380-d0a9-4d32-95c0-c1c9407e84d9" /># Sistem-Informasi-Banjir-dan-Cuaca-Samarinda-SIRAM
 ## Anggota Kelompok
 - Dwi Pebriyanto Pradana 2409116012
 - Najmi Hafizh Mauludan Zain 2409116028
@@ -69,12 +69,37 @@ Peristiwa ini menunjukkan bahwa dampak perubahan iklim sudah nyata di sekitar ki
 
 # PENERAPAN 5 PILAR OOP
 - Encapsulation
+
+<img width="1211" height="825" alt="image" src="https://github.com/user-attachments/assets/846682f8-ef83-4dd8-bfb2-1aa2668ea5a5" />
+
 - Inheritance
+
+<img width="666" height="263" alt="image" src="https://github.com/user-attachments/assets/0d735785-eca4-496c-ad89-08ee15e41391" />
+
+<img width="665" height="233" alt="image" src="https://github.com/user-attachments/assets/71220383-391d-4cae-848c-1bf6c1c6bb62" />
+
+<img width="649" height="221" alt="image" src="https://github.com/user-attachments/assets/687e55c8-c28a-4a80-a19b-c20906394553" />
+
 - Abstraction
+
+<img width="666" height="263" alt="image" src="https://github.com/user-attachments/assets/0d735785-eca4-496c-ad89-08ee15e41391" />
+
+<img width="636" height="58" alt="image" src="https://github.com/user-attachments/assets/c5cf4cc6-54fe-42b3-b9ee-c0f6aa0296db" />
+
+
 - Polymorphism
+
+<img width="1060" height="712" alt="image" src="https://github.com/user-attachments/assets/edd469e9-a5e4-4e3e-a87b-fdd47d7d55d6" />
+
 - Interface
 
+<img width="404" height="313" alt="image" src="https://github.com/user-attachments/assets/e16648ec-a266-40cd-a6b2-c031048d8c55" />
+
+
 # PENJELASAN STRUKTUR PACKAGES
+<img width="637" height="682" alt="image" src="https://github.com/user-attachments/assets/59f757f5-87db-4fd3-b514-49e64f205939" />
+
+
 - Koneksi 
 - Model 
 - Main 
