@@ -195,18 +195,39 @@ pada program ini menggunakan struktur MVC yaitu
 <img width="1299" height="574" alt="image" src="https://github.com/user-attachments/assets/7485953a-449b-4328-a324-49c835ed7057" />
 
 # CARA MENGGUNAKAN PROGRAM
+### Halaman Utama
 <img width="1182" height="891" alt="image" src="https://github.com/user-attachments/assets/ec5b3863-544c-4929-b3aa-d00a072b05a3" />
 
-Halaman login digunakan untuk autentikasi pengguna sebelum mengakses sistem SIRAM. Pengguna dapat masuk menggunakan email atau username, dan jika belum memiliki akun dapat melakukan registrasi melalui menu ‘Buat Akun’.
+Halaman Utama dari program ini yaitu sebagai tempat login juga. digunakan untuk autentikasi pengguna sebelum mengakses sistem SIRAM. Pengguna dapat masuk menggunakan email atau username, dan jika belum memiliki akun dapat melakukan registrasi melalui menu ‘Buat Akun’.
 
-<img width="1203" height="946" alt="image" src="https://github.com/user-attachments/assets/273ba9b8-2721-4934-b3b4-680f351959a2" />
+### Membuat Akun
+<img width="1196" height="948" alt="image" src="https://github.com/user-attachments/assets/cf27c323-6f75-4931-a2a1-601b1d78238d" />
 
 Halaman Buat Akun digunakan untuk proses registrasi pengguna baru pada aplikasi SIRAM. Pengguna mengisi data pribadi seperti nama, email, nomor HP, username, dan password. Setelah data tervalidasi, sistem menyimpan informasi tersebut ke database agar pengguna dapat melakukan login ke dalam sistem.
 
-<img width="1180" height="888" alt="image" src="https://github.com/user-attachments/assets/c2e312d6-cb53-4a86-b795-e9298159c896" />
+### Role User/Pengguna
+#### Login
+<img width="1180" height="886" alt="image" src="https://github.com/user-attachments/assets/fb3fd2ef-f2eb-4d3a-84bd-0ea4087c6bc1" />
 
-Halaman login digunakan untuk autentikasi pengguna pada aplikasi SIRAM. Pengguna memasukkan username/email dan password untuk mengakses sistem. Jika login berhasil, sistem menampilkan pesan sambutan dan mengarahkan pengguna ke dashboard utama.
+Halaman login digunakan untuk autentikasi pengguna pada aplikasi SIRAM. Pengguna memasukkan username/email dan password untuk mengakses sistem. Jika login berhasil, sistem menampilkan pesan sambutan dan mengarahkan pengguna ke menu user.
 
-<img width="1203" height="946" alt="image" src="https://github.com/user-attachments/assets/9129d8ce-7c2e-4737-b76c-d50d8c3a1c3a" />
+#### Menu User
+<img width="1203" height="946" alt="image" src="https://github.com/user-attachments/assets/31148e54-5f52-48a0-9a52-9b2744a547c3" />
 
-Halaman dashboard merupakan tampilan utama bagi pengguna setelah berhasil login ke aplikasi SIRAM. Pengguna dapat melihat informasi cuaca terkini melalui menu Info Cuaca atau melaporkan kondisi banjir melalui menu Laporan Banjir. Disediakan juga tombol Logout untuk keluar dari akun.
+Tampilan utama bagi pengguna setelah berhasil login ke aplikasi SIRAM. Pengguna dapat melihat informasi cuaca terkini melalui menu Info Cuaca atau melaporkan kondisi banjir melalui menu Laporan Banjir. Disediakan juga tombol Logout untuk keluar dari akun.
+
+#### Info Cuaca
+<img width="1203" height="946" alt="image" src="https://github.com/user-attachments/assets/9d3bb03a-0648-4a83-b907-3cda75d54f93" />
+<img width="1203" height="946" alt="image" src="https://github.com/user-attachments/assets/44378a67-4ecf-490d-9163-c3f5bd2da4f2" />
+
+#### Laporan Banjir
+<img width="1203" height="946" alt="Cuplikan layar 2025-11-01 042234" src="https://github.com/user-attachments/assets/8565a56b-d960-4c32-bad8-522e906a02b0" />
+<img width="1180" height="923" alt="image" src="https://github.com/user-attachments/assets/ab9e8c40-907f-4283-84e4-7cc9ceb3268f" />
+
+#### Buat Laporan
+<img width="1182" height="891" alt="image" src="https://github.com/user-attachments/assets/62a7a2dd-e65e-4ceb-87de-cefa292dc253" />
+
+<img width="1173" height="892" alt="image" src="https://github.com/user-attachments/assets/0e94c701-af05-416b-9092-6a00167f91db" />
+
+<img width="1203" height="946" alt="image" src="https://github.com/user-attachments/assets/655b4a93-94c7-4f9a-a6b8-5e0d5072f2aa" />
+
