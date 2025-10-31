@@ -10,7 +10,7 @@ Sistem Informasi Banjir dan Cuaca Samarinda atau SIRAM merupakan program yang me
 
 
 # FLOWCHART DAN USE CASE DIAGRAM
-## Flowchart
+### Flowchart
 <details>
   <summary>1. Flowchart Menu Utama</summary>
   <img src="https://github.com/user-attachments/assets/1e8301a3-bea2-4e11-955a-f03f825e55f6"alt="">
@@ -46,7 +46,7 @@ Sistem Informasi Banjir dan Cuaca Samarinda atau SIRAM merupakan program yang me
   <img src="https://github.com/user-attachments/assets/42f12114-68ab-48b9-ba80-48889c7ea711"alt="">
 </details>
 
-## Use Case Diagram
+### Use Case Diagram
 <details>
   <summary>Use Case Diagram SIRAM</summary>
   <img src="https://github.com/user-attachments/assets/9cecfa4c-c6df-4760-ac14-6cc564a77b21"alt="">
@@ -178,11 +178,11 @@ Bagian ini berisi library eksternal (file .jar) yang dibutuhkan agar program dap
 - protobuf-java yang berfungsi dalam pengolahan data tambahan.
 
 # PENERAPAN NILAI TAMBAHAN
-## Menggunakan metode tertentu untuk koneksi ke database
+### Menggunakan metode tertentu untuk koneksi ke database
 
 <img width="815" height="508" alt="image" src="https://github.com/user-attachments/assets/3f536d0a-386c-4b3f-808d-dcdb885dcdb8" />
 
-## Menerapkan struktur MVC
+### Menerapkan struktur MVC
 
 <img width="274" height="113" alt="image" src="https://github.com/user-attachments/assets/95a06d9e-f2fe-4ff7-ac71-8ea838cf4606" />
 
@@ -191,7 +191,7 @@ pada program ini menggunakan struktur MVC yaitu
 - View terdaat pada package GUI yang berfungsi sebagai tampilan antar muka untuk pengguna
 - Control terdapat pada package Control yang berfungsii sebagai method yang dijalankan.
 
-## Mengimplementasikan framework ORM
+### Mengimplementasikan framework ORM
 <img width="1299" height="574" alt="image" src="https://github.com/user-attachments/assets/7485953a-449b-4328-a324-49c835ed7057" />
 
 # CARA MENGGUNAKAN PROGRAM
