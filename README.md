@@ -6,10 +6,8 @@
 - Jemis Movid 2409116070
 
 # PROGRAM SISTEM INFORMASI BANJIR DAN CUACA SAMARINDA (SIRAM)
+Sistem Informasi Banjir dan Cuaca Samarinda atau SIRAM merupakan program yang membantu masyarakat Samarinda dalam mendapatkan informasi cuaca terkini, serta informasi lokasi yang mengalami banjir secara realtime dari laporan banjir pengguna lain yang juga tersedia statusnya apakah masih banjir atau surut. program ini juga melihatkan tindak lanjut yang dilakukan petugas terhadap laporan banjir yang dilaporkan masyarakat Samarinda.
 
-Perubahan iklim kini semakin terasa di Samarinda. Cuaca yang tidak menentu membuat hujan deras sering turun terus-menerus hingga menyebabkan banjir di berbagai wilayah. Kondisi ini dapat menghambat banyak aktivitas masyarakat. Masalah banjir sendiri sudah menjadi hal yang umum setiap musim hujan, terutama karena curah hujan yang makin tinggi serta berkurangnya daerah resapan air akibat pembangunan yang terus meningkat.
-
-Peristiwa ini menunjukkan bahwa dampak perubahan iklim sudah nyata di sekitar kita. Melalui tema “Climate Action” dari SDGs, penting bagi kita untuk memahami penyebab dan dampak perubahan iklim, terutama yang berkaitan dengan curah hujan ekstrem di Samarinda. Dengan begitu, masyarakat diharapkan lebih sadar dan mau berperan aktif dalam upaya mitigasi dan adaptasi agar lingkungan tetap aman, nyaman, dan berkelanjutan untuk ditinggali.
 
 # FLOWCHART DAN USE CASE DIAGRAM
 ## Flowchart
