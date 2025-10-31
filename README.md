@@ -99,10 +99,46 @@ Peristiwa ini menunjukkan bahwa dampak perubahan iklim sudah nyata di sekitar ki
 # PENJELASAN STRUKTUR PACKAGES
 <img width="637" height="682" alt="image" src="https://github.com/user-attachments/assets/59f757f5-87db-4fd3-b514-49e64f205939" />
 
+### 1. Source Packages
 
-- Koneksi 
-- Model 
-- Main 
+Bagian ini berisi seluruh kode utama program. Di dalamnya terdapat beberapa package yang memiliki fungsi berbeda namun saling berkaitan.
+
+- Control
+Package ini berfungsi sebagai pengatur alur logika program antara tampilan dan data. Class yang ada di dalamnya mengelola proses seperti login, input laporan, validasi data, dan komunikasi antara antarmuka pengguna dengan database.
+
+- GUI
+Package ini berisi komponen tampilan antarmuka yang digunakan oleh pengguna. Seluruh halaman seperti menu utama, form login, registrasi, menu admin, dan menu user terdapat di dalam bagian ini.
+
+- Koneksi
+Package ini bertugas mengatur koneksi antara aplikasi dengan database. Di dalamnya terdapat class yang mengatur konfigurasi driver dan koneksi menggunakan framework Hibernate.
+
+- Model
+Package ini menyimpan class-class yang merepresentasikan data atau entitas yang ada di dalam database, seperti User, Laporan, Cuaca, dan Daerah. Bagian ini menangani proses pengolahan data seperti penyimpanan, pembaruan, penghapusan, dan pengambilan data (CRUD).
+
+- Util
+Package ini berfungsi sebagai penyedia class pendukung atau helper yang membantu proses kerja aplikasi, misalnya pengaturan format, validasi input, atau fungsi tambahan lain yang digunakan di berbagai bagian program.
+
+### 2. Test Packages
+
+Bagian ini digunakan untuk menyimpan file pengujian atau testing terhadap fungsi-fungsi program. Tujuannya adalah memastikan bahwa setiap fitur utama dalam aplikasi dapat berjalan sesuai dengan kebutuhan dan bebas dari error.
+
+### 3. Other Sources
+
+Terdapat file hibernate.cfg.xml yang digunakan sebagai konfigurasi Hibernate, meliputi pengaturan nama database, username, password, serta driver koneksi. Selain itu, terdapat juga folder Logo yang berisi aset gambar yang digunakan dalam tampilan antarmuka (GUI).
+  
+### 4. Dependencies
+
+Bagian ini berisi library eksternal (file .jar) yang dibutuhkan agar program dapat berjalan dengan baik, di antaranya:
+
+- hibernate-core yang digunakan untuk menghubungkan objek Java dengan database melalui konsep ORM.
+  
+- mysql-connector-j untuk menghubungkan aplikasi dengan database MySQL.
+  
+- jakarta.persistence-api dan jakarta.transaction-api untuk mendukung proses transaksi dan penyimpanan data.
+  
+- AbsoluteLayout untuk membantu pengaturan tata letak tampilan antarmuka / GUI.
+  
+- protobuf-java yang berfungsi dalam pengolahan data tambahan.
 
 # PENERAPAN NILAI TAMBAHAN
 -  Menerapkan struktur MVC
