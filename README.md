@@ -231,3 +231,65 @@ Tampilan utama bagi pengguna setelah berhasil login ke aplikasi SIRAM. Pengguna 
 
 <img width="1203" height="946" alt="image" src="https://github.com/user-attachments/assets/655b4a93-94c7-4f9a-a6b8-5e0d5072f2aa" />
 
+### Lihat Tindak Lanjut
+<img width="1182" height="891" alt="image" src="https://github.com/user-attachments/assets/79dfd79b-7444-4c9b-8eb4-afd72734566a" />
+
+
+### Role Admin
+#### Login
+<img width="1173" height="880" alt="image" src="https://github.com/user-attachments/assets/b87cc487-d80b-4262-968f-f7643e1c5c7b" />
+Halaman login digunakan untuk autentikasi admin pada aplikasi SIRAM. admin memasukkan username/email dan password untuk mengakses sistem. Jika login berhasil, sistem menampilkan pesan sambutan dan mengarahkan admin ke menu admin.
+
+#### Menu Admin
+<img width="1182" height="891" alt="image" src="https://github.com/user-attachments/assets/a00a3cfa-4f55-4ac2-99bc-394c23dd81c3" />
+Tampilan utama bagi admin setelah berhasil login ke aplikasi SIRAM. admin dapat mengelola informasi cuaca melalui Kelola Info Cuaca atau mengelola laporan banjir melalui menu kelola Laporan Banjir. Disediakan juga tombol Logout untuk keluar dari akun.
+
+#### Kelola Info Cuaca
+<img width="1199" height="944" alt="image" src="https://github.com/user-attachments/assets/c28664b5-ba8a-4483-84b1-bb30a66b6130" />
+
+<img width="1207" height="950" alt="image" src="https://github.com/user-attachments/assets/2bf5c5ab-c30d-4827-a958-e13cddc5ed64" />
+
+
+1. Tambah Info Cuaca
+   <img width="1203" height="943" alt="image" src="https://github.com/user-attachments/assets/24921194-76ad-41c9-8312-079a9bfc1791" />
+
+2. Perbarui Info Cuaca
+   <img width="1196" height="942" alt="image" src="https://github.com/user-attachments/assets/07a149de-acf1-4c04-a0db-e05e7afdf9cb" />
+
+3. Hapus Info Cuaca
+   <img width="1203" height="944" alt="image" src="https://github.com/user-attachments/assets/47e13290-616d-4cd4-87e8-224a107b7996" />
+
+#### Kelola Laporan Banjir
+<img width="1203" height="946" alt="image" src="https://github.com/user-attachments/assets/e82bc710-5194-4dd2-aac0-c11f6b29e47e" />
+
+<img width="1203" height="946" alt="image" src="https://github.com/user-attachments/assets/8c0f2bea-143a-405b-9f40-69b7860abbba" />
+
+1. Ubah Status Banjir
+   <img width="1194" height="944" alt="image" src="https://github.com/user-attachments/assets/1cc93ec9-4140-444b-a4e4-b014a73023e7" />
+
+   <img width="1209" height="947" alt="image" src="https://github.com/user-attachments/assets/ea1595b3-94b8-4293-97e2-cc29f2ff3316" />
+
+2. Hapus Laporan Banjir
+   <img width="1197" height="943" alt="image" src="https://github.com/user-attachments/assets/de5f117b-cb48-4f9e-a8eb-731d0da0266d" />
+
+#### Tindak Lanjut Laporan
+<img width="1203" height="946" alt="image" src="https://github.com/user-attachments/assets/6e5c792e-daed-4139-a895-c3c986503c1e" />
+
+1. Tambah Tindak Lanjut Laporan
+   <img width="1205" height="943" alt="image" src="https://github.com/user-attachments/assets/8fe1a022-c1f7-4021-af8a-e4b87320b2e7" />
+
+2. Perbarui Tindak Lanjut Laporan
+   <img width="1200" height="947" alt="image" src="https://github.com/user-attachments/assets/2f4875e3-8598-4da8-8bf7-eab2ded8c698" />
+
+3. Ubah Status
+   <img width="1195" height="948" alt="image" src="https://github.com/user-attachments/assets/db926753-e15b-40be-8317-873110dc3baf" />
+
+   <img width="1193" height="939" alt="image" src="https://github.com/user-attachments/assets/f18cf86e-53d8-4e62-9e8a-212864043044" />
+
+4. Hapus Tindak Lanjut
+   <img width="1200" height="943" alt="image" src="https://github.com/user-attachments/assets/d69eec45-e005-44f4-9d60-e10396671fd4" />
+
+
+
+
+
