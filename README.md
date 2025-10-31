@@ -172,13 +172,16 @@ Bagian ini berisi library eksternal (file .jar) yang dibutuhkan agar program dap
 # CARA MENGGUNAKAN PROGRAM
 <img width="1182" height="891" alt="image" src="https://github.com/user-attachments/assets/ec5b3863-544c-4929-b3aa-d00a072b05a3" />
 
-
+Halaman login digunakan untuk autentikasi pengguna sebelum mengakses sistem SIRAM. Pengguna dapat masuk menggunakan email atau username, dan jika belum memiliki akun dapat melakukan registrasi melalui menu ‘Buat Akun’.
 
 <img width="1203" height="946" alt="image" src="https://github.com/user-attachments/assets/273ba9b8-2721-4934-b3b4-680f351959a2" />
 
+Halaman Buat Akun digunakan untuk proses registrasi pengguna baru pada aplikasi SIRAM. Pengguna mengisi data pribadi seperti nama, email, nomor HP, username, dan password. Setelah data tervalidasi, sistem menyimpan informasi tersebut ke database agar pengguna dapat melakukan login ke dalam sistem.
 
 <img width="1180" height="888" alt="image" src="https://github.com/user-attachments/assets/c2e312d6-cb53-4a86-b795-e9298159c896" />
 
-
+Halaman login digunakan untuk autentikasi pengguna pada aplikasi SIRAM. Pengguna memasukkan username/email dan password untuk mengakses sistem. Jika login berhasil, sistem menampilkan pesan sambutan dan mengarahkan pengguna ke dashboard utama.
 
 <img width="1203" height="946" alt="image" src="https://github.com/user-attachments/assets/9129d8ce-7c2e-4737-b76c-d50d8c3a1c3a" />
+
+Halaman dashboard merupakan tampilan utama bagi pengguna setelah berhasil login ke aplikasi SIRAM. Pengguna dapat melihat informasi cuaca terkini melalui menu Info Cuaca atau melaporkan kondisi banjir melalui menu Laporan Banjir. Disediakan juga tombol Logout untuk keluar dari akun.
