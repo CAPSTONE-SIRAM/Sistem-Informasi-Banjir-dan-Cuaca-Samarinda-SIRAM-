@@ -218,22 +218,36 @@ Tampilan utama bagi pengguna setelah berhasil login ke aplikasi SIRAM. Pengguna 
 
 #### Info Cuaca
 <img width="1203" height="946" alt="image" src="https://github.com/user-attachments/assets/9d3bb03a-0648-4a83-b907-3cda75d54f93" />
+
+Halaman ini menampilkan daftar wilayah yang mengalami hujan, lengkap dengan data suhu, kelembapan, curah hujan, dan potensi banjir. Pengguna dapat mengganti kategori cuaca melalui menu dropdown dan kembali ke dashboard dengan tombol ‘Kembali’.
+
 <img width="1203" height="946" alt="image" src="https://github.com/user-attachments/assets/44378a67-4ecf-490d-9163-c3f5bd2da4f2" />
+
+Halaman ini menampilkan daftar wilayah yang mengalami cuaca panas disertai suhu, kelembapan, dan indeks UV. Tampilan berwarna cerah memberikan kesan hangat, dan pengguna dapat mengganti kategori cuaca atau kembali ke dashboard melalui tombol navigasi.
 
 #### Laporan Banjir
 <img width="1203" height="946" alt="Cuplikan layar 2025-11-01 042234" src="https://github.com/user-attachments/assets/8565a56b-d960-4c32-bad8-522e906a02b0" />
 <img width="1180" height="923" alt="image" src="https://github.com/user-attachments/assets/ab9e8c40-907f-4283-84e4-7cc9ceb3268f" />
 
+Halaman ini menampilkan daftar laporan banjir yang berisi informasi pelapor, lokasi, tinggi air, status, dan foto kondisi lapangan. Pengguna dapat melihat foto laporan melalui tombol ‘Lihat Foto’ atau menambah laporan baru melalui tombol ‘Buat Laporan’. Tampilan ini membantu pemantauan banjir secara cepat dan informatif.
+
 #### Buat Laporan
 <img width="1182" height="891" alt="image" src="https://github.com/user-attachments/assets/62a7a2dd-e65e-4ceb-87de-cefa292dc253" />
 
+Halaman form laporan digunakan untuk memasukkan data kejadian banjir seperti tinggi air, kecamatan, lokasi, dan foto bukti sebelum dikirim ke sistem.
+
 <img width="1173" height="892" alt="image" src="https://github.com/user-attachments/assets/0e94c701-af05-416b-9092-6a00167f91db" />
 
+Jendela pemilihan file muncul ketika pengguna mengunggah foto bukti banjir. Fitur ini memastikan laporan dilengkapi dengan dokumentasi visual dari lapangan.
+
 <img width="1203" height="946" alt="image" src="https://github.com/user-attachments/assets/655b4a93-94c7-4f9a-a6b8-5e0d5072f2aa" />
+
+Setelah laporan dikirim, data akan otomatis tersimpan dan muncul di daftar laporan banjir. Pengguna dapat memverifikasi hasil kiriman dan melihat status laporan secara langsung.
 
 ### Lihat Tindak Lanjut
 <img width="1182" height="891" alt="image" src="https://github.com/user-attachments/assets/79dfd79b-7444-4c9b-8eb4-afd72734566a" />
 
+Halaman ini menampilkan hasil tindak lanjut dari laporan banjir yang telah dikirim. Pengguna dapat melihat status penyelesaian dan deskripsi tindakan yang dilakukan oleh pihak terkait pada lokasi yang dilaporkan.
 
 ### Role Admin
 #### Login
@@ -249,15 +263,35 @@ Tampilan utama bagi admin setelah berhasil login ke aplikasi SIRAM. admin dapat 
 
 <img width="1207" height="950" alt="image" src="https://github.com/user-attachments/assets/2bf5c5ab-c30d-4827-a958-e13cddc5ed64" />
 
+Halaman ini memungkinkan admin untuk mengelola informasi cuaca seperti suhu, kelembapan, curah hujan, dan indeks UV di berbagai wilayah. Admin dapat menambah, memperbarui, atau menghapus data sesuai kondisi cuaca yang tercatat.
+
 
 1. Tambah Info Cuaca
    <img width="1203" height="943" alt="image" src="https://github.com/user-attachments/assets/24921194-76ad-41c9-8312-079a9bfc1791" />
 
+   Tampilan ini menunjukkan proses penambahan data cuaca baru oleh admin. Admin mengisi form yang berisi:
+   - Tanggal cuaca
+   - Kecamatan
+   - Suhu
+   - Kelembapan
+   - Curah hujan
+
+  Setelah semua data diisi dan tombol Tambah ditekan, sistem menampilkan notifikasi “Data has been inserted successfully” sebagai tanda bahwa data berhasil disimpan.
+
 2. Perbarui Info Cuaca
    <img width="1196" height="942" alt="image" src="https://github.com/user-attachments/assets/07a149de-acf1-4c04-a0db-e05e7afdf9cb" />
 
+   Pada tampilan ini admin melakukan pembaruan (update) terhadap data cuaca yang sudah ada. Langkah-langkahnya:
+   - Pilih baris data yang ingin diperbarui dari tabel.
+   - Ubah informasi yang perlu disesuaikan.
+   - Tekan tombol Perbarui.
+
+  Setelah itu muncul pesan “Data has been updated successfully” yang menandakan proses update berhasil dilakukan.
+
 3. Hapus Info Cuaca
    <img width="1203" height="944" alt="image" src="https://github.com/user-attachments/assets/47e13290-616d-4cd4-87e8-224a107b7996" />
+
+   Tampilan ini digunakan untuk menghapus data cuaca. Admin memilih data yang ingin dihapus lalu menekan tombol Hapus. Sistem menampilkan pesan konfirmasi “Apakah yakin ingin menghapus data ini?” untuk memastikan tindakan tersebut. Jika admin menekan Yes, maka data akan dihapus dari tabel dan tidak lagi tampil dalam daftar.
 
 #### Kelola Laporan Banjir
 <img width="1203" height="946" alt="image" src="https://github.com/user-attachments/assets/e82bc710-5194-4dd2-aac0-c11f6b29e47e" />
