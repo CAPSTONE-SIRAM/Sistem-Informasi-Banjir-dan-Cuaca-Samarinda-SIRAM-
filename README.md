@@ -1,4 +1,4 @@
-<img width="637" height="682" alt="image" src="https://github.com/user-attachments/assets/d2911380-d0a9-4d32-95c0-c1c9407e84d9" /># Sistem-Informasi-Banjir-dan-Cuaca-Samarinda-SIRAM
+# Sistem-Informasi-Banjir-dan-Cuaca-Samarinda-SIRAM
 ## Anggota Kelompok
 - Dwi Pebriyanto Pradana 2409116012
 - Najmi Hafizh Mauludan Zain 2409116028
