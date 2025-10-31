@@ -74,11 +74,15 @@ Peristiwa ini menunjukkan bahwa dampak perubahan iklim sudah nyata di sekitar ki
 # PENERAPAN 5 PILAR OOP
 ### Encapsulation
 Konsep membungkus data sensitif berupa property atau method dalam sebuah class agar terlindungi dari akses class lain. Untuk mengakses class tersebut, harus menetapkan modifier ‘private’ pada property terlebih dahulu, kemudian data bisa diakses melalui method getter (penginisialisasian)/setter (pengaksesan) yang bersifat ‘public’.
+contohnya:
 
-<img width="1211" height="825" alt="image" src="https://github.com/user-attachments/assets/846682f8-ef83-4dd8-bfb2-1aa2668ea5a5" />
+<img width="500" height="500" alt="image" src="https://github.com/user-attachments/assets/846682f8-ef83-4dd8-bfb2-1aa2668ea5a5" />
 
-Pada class Users, encapsulation diterapkan dengan menjadikan atribut bersifat private dan diakses melalui method getter dan setter.
-Hal ini menjaga keamanan data pengguna (seperti password, email, dan no_hp) serta membuat struktur kode lebih teratur dan mudah dikelola.
+
+<img width="500" height="400" alt="image" src="https://github.com/user-attachments/assets/4bdfd981-f010-42f7-a095-f58dfbb49815" />
+
+Pada class Users, encapsulation diterapkan dengan menjadikan atribut username, nama_lengkap, email dll bersifat private kemudian diakses melalui method getter dan setter.
+Hal ini menjaga keamanan data pengguna serta membuat struktur kode lebih teratur dan mudah dikelola.
 
 ### Inheritance
 Inheritance merupakan salah satu pilar utama dalam Pemrograman Berorientasi Objek yang memungkinkan suatu class (child) mewarisi property dan method dari class  lain (parent). Inheritance membantu mengurangi penulisan kode secara berulang  (mengurangi redundancy kode). Sebuah kelas (superclass) dapat mewariskan property dan method kepada kelas-kelas turunannya (subclass). Artinya, subclass dapat menggunakan kembali property dan method dari superclass, serta dapat menambahkan property dan method baru atau mengubah perilaku yang sudah ada.
