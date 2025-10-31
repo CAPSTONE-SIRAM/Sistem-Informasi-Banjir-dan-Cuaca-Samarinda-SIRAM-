@@ -180,8 +180,21 @@ Bagian ini berisi library eksternal (file .jar) yang dibutuhkan agar program dap
 - protobuf-java yang berfungsi dalam pengolahan data tambahan.
 
 # PENERAPAN NILAI TAMBAHAN
--  Menerapkan struktur MVC
--  Mengimplementasikan framework ORM
+## Menggunakan metode tertentu untuk koneksi ke database
+
+<img width="815" height="508" alt="image" src="https://github.com/user-attachments/assets/3f536d0a-386c-4b3f-808d-dcdb885dcdb8" />
+
+## Menerapkan struktur MVC
+
+<img width="274" height="113" alt="image" src="https://github.com/user-attachments/assets/95a06d9e-f2fe-4ff7-ac71-8ea838cf4606" />
+
+pada program ini menggunakan struktur MVC yaitu
+- Model terdapat pada package model yang berisi class untuk model setiap entitas yang ada di database
+- View terdaat pada package GUI yang berfungsi sebagai tampilan antar muka untuk pengguna
+- Control terdapat pada package Control yang berfungsii sebagai method yang dijalankan.
+
+## Mengimplementasikan framework ORM
+<img width="1299" height="574" alt="image" src="https://github.com/user-attachments/assets/7485953a-449b-4328-a324-49c835ed7057" />
 
 # CARA MENGGUNAKAN PROGRAM
 <img width="1182" height="891" alt="image" src="https://github.com/user-attachments/assets/ec5b3863-544c-4929-b3aa-d00a072b05a3" />
