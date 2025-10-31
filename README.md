@@ -72,7 +72,7 @@ Peristiwa ini menunjukkan bahwa dampak perubahan iklim sudah nyata di sekitar ki
 - Kelola Laporan Banjir: Admin melihat laporan banjir yang disampaikan oleh user, kemudian admin dapat mengambil tindakan ataupun memberi respon terhadapat laporan user.
 
 # PENERAPAN 5 PILAR OOP
-### Encapsulation
+### 1. Encapsulation
 Konsep membungkus data sensitif berupa property atau method dalam sebuah class agar terlindungi dari akses class lain. Untuk mengakses class tersebut, harus menetapkan modifier ‘private’ pada property terlebih dahulu, kemudian data bisa diakses melalui method getter (penginisialisasian)/setter (pengaksesan) yang bersifat ‘public’.
 contohnya:
 
@@ -84,51 +84,54 @@ contohnya:
 Pada class Users, encapsulation diterapkan dengan menjadikan atribut username, nama_lengkap, email dll bersifat private kemudian diakses melalui method getter dan setter.
 Hal ini menjaga keamanan data pengguna serta membuat struktur kode lebih teratur dan mudah dikelola.
 
-### Inheritance
+### 2. Inheritance
 Inheritance merupakan salah satu pilar utama dalam Pemrograman Berorientasi Objek yang memungkinkan suatu class (child) mewarisi property dan method dari class  lain (parent). Inheritance membantu mengurangi penulisan kode secara berulang  (mengurangi redundancy kode). Sebuah kelas (superclass) dapat mewariskan property dan method kepada kelas-kelas turunannya (subclass). Artinya, subclass dapat menggunakan kembali property dan method dari superclass, serta dapat menambahkan property dan method baru atau mengubah perilaku yang sudah ada.
+Contoh:
 
 <img width="666" height="263" alt="image" src="https://github.com/user-attachments/assets/0d735785-eca4-496c-ad89-08ee15e41391" />
 
-Class Cuaca dibuat sebagai class abstrak yang menyimpan atribut umum dari semua jenis cuaca, yaitu:
-
-- idCuaca sebagai identitas data cuaca.
-- tanggal sebagai waktu pencatatan.
-
+Class Cuaca dibuat sebagai class abstrak yang menyimpan atribut umum dari semua jenis cuaca, yaitu suhu, kelembapan, tanggal dan kecamatan.
 Karena bersifat abstrak, class ini tidak dapat dibuat objek secara langsung, tetapi dapat diwariskan oleh class lain.
 
 <img width="665" height="233" alt="image" src="https://github.com/user-attachments/assets/71220383-391d-4cae-848c-1bf6c1c6bb62" />
 
-Class CuacaHujan mewarisi atribut idCuaca dan tanggal dari class Cuaca.
-Selain itu, class ini menambahkan atribut khusus untuk cuaca hujan, yaitu:
-
-- curahHujan
-- potensiBanjir
+Class CuacaHujan mewarisi class Cuaca. Selain itu, class ini memiliki atribut tambahan cuaca yaitu curah_Hujan dan potensi_Banjir
 
 <img width="649" height="221" alt="image" src="https://github.com/user-attachments/assets/687e55c8-c28a-4a80-a19b-c20906394553" />
 
-Sama seperti CuacaHujan, class CuacaPanas juga mewarisi atribut umum dari Cuaca, dan menambahkan atribut khusus untuk kondisi cuaca panas:
+Sama seperti Cuaca_Hujan, class CuacaPanas juga mewarisi atribut umum dari Cuaca, dan menambahkan atribut untuk kondisi cuaca panas yaitu indeks_UV dan level_Panas
 
-- indeksUV
-- levelPanas
-
-### Abstraction
+### 3. Abstraction
 Abstraksi berarti hanya menaruh karakteristik-karakteristik yang diperlukan oleh sebuah kelas tanpa harus menampilkan detail dari karakteristik tersebut. Dalam abstraction menggunakan abstract class yang merukan kelas abtrak digunakan untuk menentukan karakteristik dari sebuah kelas. Abstract class tidak bisa dibuat menjadi obek secara langsung harus diwariskan.
+contoh:
 
-<img width="666" height="263" alt="image" src="https://github.com/user-attachments/assets/0d735785-eca4-496c-ad89-08ee15e41391" />
+<img width="600" height="58" alt="image" src="https://github.com/user-attachments/assets/c5cf4cc6-54fe-42b3-b9ee-c0f6aa0296db" />
 
-<img width="636" height="58" alt="image" src="https://github.com/user-attachments/assets/c5cf4cc6-54fe-42b3-b9ee-c0f6aa0296db" />
+<img width="600" height="300" alt="image" src="https://github.com/user-attachments/assets/3db06c7a-bf7a-499b-98e8-1d1a7ae6cad1" />
 
-Abstraction pada class Cuaca digunakan untuk menyederhanakan struktur data cuaca dengan hanya menampilkan atribut dan method dasar, sementara detail implementasinya diatur oleh subclass CuacaHujan dan CuacaPanas.
+<img width="600" height="300" alt="image" src="https://github.com/user-attachments/assets/dde50396-fe87-418a-b980-d03ba4bbc147" />
 
-### Polymorphism
+Abstraction pada class Cuaca untuk menampikan tabel digunakan untuk method dasar, sementara detail implementasi menampilkan tabel diatur oleh subclass CuacaHujan dan CuacaPanas.
 
-<img width="1060" height="712" alt="image" src="https://github.com/user-attachments/assets/edd469e9-a5e4-4e3e-a87b-fdd47d7d55d6" />
+### 4. Polymorphism
+Polymorphism adalah kondsi dimana kita dapat membuat ssuatu method dengan nama yang sama namun memiliki variasi kegunaan yang berbeda.
+contoh:
 
-Polymorphism diterapkan pada method tampil() yang dioverride dari class abstrak Cuaca. Setiap subclass seperti CuacaHujan dan CuacaPanas memiliki implementasi tampil() sendiri, sehingga sistem dapat menampilkan data sesuai jenis cuaca tanpa mengubah struktur utama.
+<img width="600" height="58" alt="image" src="https://github.com/user-attachments/assets/c5cf4cc6-54fe-42b3-b9ee-c0f6aa0296db" />
 
-### Interface
+<img width="600" height="300" alt="image" src="https://github.com/user-attachments/assets/3db06c7a-bf7a-499b-98e8-1d1a7ae6cad1" />
+
+<img width="600" height="300" alt="image" src="https://github.com/user-attachments/assets/dde50396-fe87-418a-b980-d03ba4bbc147" />
+
+Polymorphism diterapkan yaitu ovveriding pada method tampil() yang dioverride dari class abstrak Cuaca. Setiap subclass seperti CuacaHujan dan CuacaPanas memiliki implementasi tampil() sendiri, sehingga sistem dapat menampilkan data sesuai jenis cuaca tanpa mengubah struktur utama.
+
+### 5. Interface
+Interface adalah kelas yang mengimplementasikannya wajib menyediakan semua method yang ada di dalamnya.
+contoh:
 
 <img width="404" height="313" alt="image" src="https://github.com/user-attachments/assets/e16648ec-a266-40cd-a6b2-c031048d8c55" />
+
+<img width="936" height="489" alt="image" src="https://github.com/user-attachments/assets/9c4a6cb4-46ea-479e-8ad2-266ac0f783f9" />
 
 Interface CuacaDAO digunakan sebagai blueprint operasi database cuaca seperti insert, update, delete, dan get. Dengan interface ini, sistem menjadi lebih fleksibel karena implementasi akses data dapat diubah tanpa mempengaruhi logika utama aplikasi.
 
