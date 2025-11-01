@@ -314,7 +314,7 @@ Halaman ini memungkinkan admin untuk mengelola informasi cuaca seperti suhu, kel
 3. Hapus Laporan Banjir
    <img width="1197" height="943" alt="image" src="https://github.com/user-attachments/assets/de5f117b-cb48-4f9e-a8eb-731d0da0266d" />
 
-   Mirip dengan hapus info cuaca, bagian tampilan ini sang admin melakukan penghapusan data laporan banjir dengan terlebih dahulu memasukan id laporan lalu kemudian menekan tombol "Hapus". Kemudian, sistem akan menampilkan pesan konfirmasi sebelum dihapus. Jika admin memilih Yes, maka akan dihapus. jika memilih No, maka proses batal.
+   Mirip dengan hapus info cuaca, bagian tampilan ini sang admin melakukan penghapusan data laporan banjir dengan terlebih dahulu memasukan id laporan lalu kemudian menekan tombol "Hapus". Kemudian, sistem akan menampilkan pesan konfirmasi sebelum dihapus. Jika admin memilih Yes, maka akan dihapus. jika memilih No, maka proses batal. (Catatan: Laporan yang memiliki laporan tindak lanjut tidak dapat dihapus).
 
 #### Tindak Lanjut Laporan
 <img width="1203" height="946" alt="image" src="https://github.com/user-attachments/assets/6e5c792e-daed-4139-a895-c3c986503c1e" />
