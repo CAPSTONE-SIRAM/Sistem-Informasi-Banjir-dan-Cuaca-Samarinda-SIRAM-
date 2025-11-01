@@ -276,7 +276,7 @@ Halaman ini memungkinkan admin untuk mengelola informasi cuaca seperti suhu, kel
    - Kelembapan
    - Curah hujan
 
-  Setelah semua data diisi dan tombol Tambah ditekan, sistem menampilkan notifikasi “Data has been inserted successfully” sebagai tanda bahwa data berhasil disimpan.
+    Setelah semua data diisi dan tombol Tambah ditekan, sistem menampilkan notifikasi “Data has been inserted successfully” sebagai tanda bahwa data berhasil disimpan.
 
 2. Perbarui Info Cuaca
    <img width="1196" height="942" alt="image" src="https://github.com/user-attachments/assets/07a149de-acf1-4c04-a0db-e05e7afdf9cb" />
@@ -286,7 +286,7 @@ Halaman ini memungkinkan admin untuk mengelola informasi cuaca seperti suhu, kel
    - Ubah informasi yang perlu disesuaikan.
    - Tekan tombol Perbarui.
 
-  Setelah itu muncul pesan “Data has been updated successfully” yang menandakan proses update berhasil dilakukan.
+    Setelah itu muncul pesan “Data has been updated successfully” yang menandakan proses update berhasil dilakukan.
 
 3. Hapus Info Cuaca
    <img width="1203" height="944" alt="image" src="https://github.com/user-attachments/assets/47e13290-616d-4cd4-87e8-224a107b7996" />
