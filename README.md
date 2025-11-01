@@ -296,32 +296,61 @@ Halaman ini memungkinkan admin untuk mengelola informasi cuaca seperti suhu, kel
 #### Kelola Laporan Banjir
 <img width="1203" height="946" alt="image" src="https://github.com/user-attachments/assets/e82bc710-5194-4dd2-aac0-c11f6b29e47e" />
 
+  Kelola laporan banjir adalah salah satu menu utama untuk admin. Di menu ini, admin bisa mengelola data-data informasi terkait laporan banjir yang kemudian juga bisa dilakukan tindak lanjut terhadap laporan tersebut.
+
 <img width="1203" height="946" alt="image" src="https://github.com/user-attachments/assets/8c0f2bea-143a-405b-9f40-69b7860abbba" />
+
+  Di menu kelola laporan banjir ini, admin juga bisa melakukan preview dulu dari laporan yang disampaikan. Misalnya di sini admin melihat foto lokasi, kejadian, dan lain-lainnya sebagai bukti laporan.
 
 1. Ubah Status Banjir
    <img width="1194" height="944" alt="image" src="https://github.com/user-attachments/assets/1cc93ec9-4140-444b-a4e4-b014a73023e7" />
 
    <img width="1209" height="947" alt="image" src="https://github.com/user-attachments/assets/ea1595b3-94b8-4293-97e2-cc29f2ff3316" />
 
-2. Hapus Laporan Banjir
+   Pada tampilan ini, sang admin melakukan pembaruan data (update) pada bagian status laporan yang diberikan user. Adapun langkah-langkahnya:
+   - Admin memasukan id dari laporan.
+   - Kemudian admin menekan tombol "Ubah Status"
+
+3. Hapus Laporan Banjir
    <img width="1197" height="943" alt="image" src="https://github.com/user-attachments/assets/de5f117b-cb48-4f9e-a8eb-731d0da0266d" />
+
+   Mirip dengan hapus info cuaca, bagian tampilan ini sang admin melakukan penghapusan data laporan banjir dengan terlebih dahulu memasukan id laporan lalu kemudian menekan tombol "Hapus". Kemudian, sistem akan menampilkan pesan konfirmasi sebelum dihapus. Jika admin memilih Yes, maka akan dihapus. jika memilih No, maka proses batal.
 
 #### Tindak Lanjut Laporan
 <img width="1203" height="946" alt="image" src="https://github.com/user-attachments/assets/6e5c792e-daed-4139-a895-c3c986503c1e" />
 
+  Ini adalah tampilan utama dari menu Tindak Lanjut Laporan. Pada menu inilah sang admin bisa melakukan pengelolan data lebih lanjut terkait penanganan banjir. Dari sini admin bisa melakukan tambah data sesuai id laporan, memperbarui status penanganan, dan menghapus data.
+
 1. Tambah Tindak Lanjut Laporan
    <img width="1205" height="943" alt="image" src="https://github.com/user-attachments/assets/8fe1a022-c1f7-4021-af8a-e4b87320b2e7" />
 
-2. Perbarui Tindak Lanjut Laporan
+   Ini adalah tampilan proses penambahan data tindak lanjut laporan. Adapun langkah-langkah dalam melakukannya adalah:
+   - Admin memilih id laporan dari laporan yang ingin ditindaklanjuti.
+   - Untuk id tindak lanjut dan tanggal dibiarkan kosong karena akan diisi otomatis oleh program (sebab di sini kita hanyak menambahkan data). Untuk bagian tanggal, tanggalnya akan diisi sesuai dengan waktu dan tanggal admin
+   - Setelah itu admin akan mengisi bagian bentuk penanganan yang bisa berisi deskripsi singkat.
+   - Kemudian, tekan tombol tambah dan data pun berhasil ditambahkan.
+
+3. Perbarui Tindak Lanjut Laporan
    <img width="1200" height="947" alt="image" src="https://github.com/user-attachments/assets/2f4875e3-8598-4da8-8bf7-eab2ded8c698" />
 
-3. Ubah Status
+   Ini adalah tampilan dari proses memperbarui datanya. Adapun langkah-langkah dalam melakukannya adalah:
+   - Admin memilih baris data yang ingin diperbarui.
+   - Kemudian, akan muncul id tindak lanjut, id laparan, tanggal, dan deskripsi. Dari sini, admin bisa mengubah isi dari data tersebut.
+   - Setelahnya admin hanya perlu menekan tombol perbarui dan data berhasil perbarui.
+
+5. Ubah Status
    <img width="1195" height="948" alt="image" src="https://github.com/user-attachments/assets/db926753-e15b-40be-8317-873110dc3baf" />
+
+   Tampilan ini adalah tampilan ubah status tindak lanjut.
 
    <img width="1193" height="939" alt="image" src="https://github.com/user-attachments/assets/f18cf86e-53d8-4e62-9e8a-212864043044" />
 
-4. Hapus Tindak Lanjut
+   Sama dengan Ubah Status Banjir, bagian tampilan ini memungkina admin untuk mengubah status dari penanganan tindak lanjut. Di sini admin hanya perlu memilih baris dari data atau informasi yang ingin diuba lalu menekan ubah status. Maka kemudia program akan mengubah status laporan penanganan tindak lanjut.
+
+6. Hapus Tindak Lanjut
    <img width="1200" height="943" alt="image" src="https://github.com/user-attachments/assets/d69eec45-e005-44f4-9d60-e10396671fd4" />
+
+   Sama seperti yang sebelum-sebelumnya, bagian ini adalah menu untuk menghapus isi datanya. Admin hanya perlu memilih baris dari data yang ingin dihapus, kemudian tekan tombol hapus. Program akan memberikan pesan peringatan sebelum dihapus dan jika admin memilih Yes, maka data akan dihapus dan jika memilih No, maka proses akan dibatalkan.
 
 
 
